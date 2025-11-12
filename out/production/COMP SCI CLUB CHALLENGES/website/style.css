@@ -1,0 +1,17 @@
+img {
+  width: 200px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Arial';
+  background: rgb(59,59,59);
+  color: white;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: lime
+}
