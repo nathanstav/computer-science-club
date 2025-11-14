@@ -3,6 +3,11 @@
 .AppleDouble
 .LSOverride
 
+# random other files
+.iml
+.idea/
+out/
+
 # Compiled class file
 *.class
 
