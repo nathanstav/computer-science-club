@@ -18,7 +18,12 @@ public class challenge66 {
         for (int i = 0; i < middletext.length() + padding * 2; i++) {
             toreturn += material;
         }
-        toreturn += material.repeat(thickness * 2) + "\n";
+
+        String thing = material.repeat(thickness * 2);
+        toreturn += thing + "\n";
+        if (thickness > 1) {
+            toreturn += thing.repeat(thickness - 1) + material.repeat(middletext.length()) + "\n";
+        }
 
         for (int j = 0; j < padding; j++) {
             toreturn += material.repeat(thickness) + (" ".repeat(middletext.length() + padding * 2)) + material.repeat(thickness) + "\n";
@@ -33,7 +38,10 @@ public class challenge66 {
             toreturn += material;
         }
 
-        toreturn += material.repeat(thickness * 2);
+        toreturn += thing + "\n";
+        if (thickness > 1) {
+            toreturn += thing.repeat(thickness - 1) + material.repeat(middletext.length()) + "\n";
+        }
 
         System.out.println(toreturn);
 
