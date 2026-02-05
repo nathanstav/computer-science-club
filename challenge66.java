@@ -1,3 +1,5 @@
+// complete, but didn't pass all Kittis testcases (but can't see which ones)
+
 import java.util.*;
 
 public class challenge66 {

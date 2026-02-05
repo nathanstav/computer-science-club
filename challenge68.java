@@ -21,8 +21,6 @@ public class challenge68 {
                 longest = hahas[i];
         }
 
-
-
         return longest.length() / 2;
     }
 
