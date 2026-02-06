@@ -4,9 +4,10 @@ public class challenge68 {
     public static int noLaughingMatter(String input) {
         String newstring = "";
 
-        for (int i = 0; i < input.length() - 1; i+= 2) {
+        for (int i = 0; i < input.length() - 1; i++) {
             if (input.substring(i, i + 2).equals("ha")) {
                 newstring += "ha";
+                i++;
             }
             else {
                 newstring += " ";
