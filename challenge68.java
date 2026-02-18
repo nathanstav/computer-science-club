@@ -15,7 +15,7 @@ public class challenge68 {
         }
 
         String[] hahas = newstring.split(" ");
-
+        
         String longest = hahas[0];
         for (int i = 0; i < hahas.length; i++) {
             if (hahas[i].length() > longest.length())
